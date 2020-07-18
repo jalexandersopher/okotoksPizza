@@ -4,3 +4,32 @@
     margin-right: auto;
     width: 50%;
 }
+
+a:hover {
+    color: blue;
+}
+
+a:link {
+    background-color: blueviolet;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: white;
+}
+
+body div {
+    display: grid;
+    align-items: center;
+}
+
+.images > div {
+    width: 30%;
+}
+
+img + div {
+    display: grid;
+}
