@@ -5,8 +5,9 @@
     width: 50%;
 }
 
-a:hover {
-    color: blue;
+.images:hover {
+    opacity: 50%;
+    transform: rotate(20deg);
 }
 
 a:visited {
@@ -15,6 +16,11 @@ a:visited {
 
 a:active {
     color: white;
+}
+
+a:hover {
+    color: blue;
+    font-size: 32px;
 }
 
 .images > div {
@@ -29,4 +35,10 @@ img + div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    font-size: 26px;}
+    font-size: 26px;
+}
+
+#image1:hover {
+    transform: rotate(90deg);
+}
+
